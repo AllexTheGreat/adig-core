@@ -52,6 +52,5 @@
             <version>1.5.4.RELEASE</version>
             <scope>test</scope>
         </dependency>
-
-    </dependencies>
+    </dependencies>        
 </project>
