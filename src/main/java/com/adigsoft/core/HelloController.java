@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class HelloController {
 
-  @RequestMapping("/core")
+  @RequestMapping("/")
   public String getResource() {
     return "Spring Boot Testing!";
   }
