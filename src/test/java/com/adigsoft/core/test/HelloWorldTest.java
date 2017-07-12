@@ -23,7 +23,7 @@ public class HelloWorldTest {
 
   @Test
   public void helloWorldTest() throws Exception {
-    mvc.perform(get("/").accept(MediaType.TEXT_PLAIN)).andExpect(status().isOk());
+    mvc.perform(get("/core").accept(MediaType.TEXT_PLAIN)).andExpect(status().isOk());
 
   }
 
